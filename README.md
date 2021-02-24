@@ -1,3 +1,3 @@
 # Momontum Clone 2021 Update
 
-Javascript got so much better!
+Javascript is so much fun!
