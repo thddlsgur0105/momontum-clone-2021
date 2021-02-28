@@ -4,4 +4,4 @@ Javascript is so much fun!
 
 # 메모장
 
-1. 공부 시작하는 부분: 2.5
+1. 공부 시작하는 부분: 2.6
