@@ -12,6 +12,9 @@ body > *:not(.bgImage) {
 .js-clock h1 {
     font-size: 50px;
 }
+h4.js-greetings {
+    font-size: 40px;
+}
 .js-toDoList:empty {
     display: none;
 }
