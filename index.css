@@ -1,5 +1,6 @@
 /* STYLE */
 body {
+    color: #fff;
     background-color: #b2bec3;
     display: flex;
     flex-direction: column;
@@ -10,6 +11,9 @@ body > *:not(.bgImage) {
 }
 .js-clock h1 {
     font-size: 50px;
+}
+.js-toDoList:empty {
+    display: none;
 }
 button {
     margin-left: 10px;
