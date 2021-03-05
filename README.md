@@ -2,10 +2,6 @@
 
 Javascript is so much fun!
 
-# 메모장
-
-1. 공부 시작하는 부분: 3.9
-
 # 피드백
 
 1. index.html 에서 구현할 여러 javascript 기능들을 기능별로 세분화해서 script로 불러오자
