@@ -12,7 +12,7 @@ function getWeather(lat, lng) {
         const temperature = json.main.temp;
         const place = json.name;
         weather.innerText = `${temperature} & ${place}`;
-    })
+    });
 }
 
 function saveCoords(coordsObj) {
@@ -41,16 +41,15 @@ function askForCoords() {
 function loadCoords() {
     const loadedCoords = localStorage.getItem(COORDS);
     if (loadedCoords === null) {
-        askForCoords(); // coords 정보를 직접 불러오기 & 저장하기
+        askForCoords(); 
     } else {
         const parsedCoords = JSON.parse(loadedCoords);
         getWeather(parsedCoords.latitude, parsedCoords.longitude);
-        //getWeather ; coords 정보를 loeadedCoords 를 이용해 가져오기
     }
 }
 
 function init() {
-    loadCoords(); // localStorage에 key: coords인 값이 있든 없든지간에 값을 호출하는 함수 
+    loadCoords();
 }
 
 init();
