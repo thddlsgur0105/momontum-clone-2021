@@ -21,7 +21,7 @@ button {
 }
 
 .section--form {
-    width: 1000px;
+    width: 100vw;
     height: 100px;
     margin-bottom: 50px;
 }
@@ -62,7 +62,7 @@ form input::placeholder {
     width: 80%;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .js-toDoList li {
